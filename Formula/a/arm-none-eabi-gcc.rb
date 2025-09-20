@@ -37,7 +37,7 @@ class ArmNoneEabiGcc < Formula
                              "--prefix=#{prefix}",
                              "--infodir=#{info}/#{target}",
                              "--disable-nls",
-                             "--without-headers",
+                             # "--without-headers",
                              "--with-as=#{Formula["arm-none-eabi-binutils"].bin}/arm-none-eabi-as",
                              "--with-ld=#{Formula["arm-none-eabi-binutils"].bin}/arm-none-eabi-ld",
                              "--enable-languages=c,c++,objc,lto",
